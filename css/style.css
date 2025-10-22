@@ -45,3 +45,31 @@ nav{
     align-self: flex-end;
     justify-self: stretch;
 }
+.gallery-img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover; /* recorta sin deformar */
+    border-radius: 10px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.gallery-img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
+}
+.gallery-caption {
+      
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      font-weight: 500;
+      padding: 8px;
+      text-align: center;
+      border-radius: 0 0 10px 10px;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
