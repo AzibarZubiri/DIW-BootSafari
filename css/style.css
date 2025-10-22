@@ -1,0 +1,47 @@
+body{
+    background: #ffeea5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbb56d, #ffeea5);
+    /*
+    Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbb56d, #ffeea5); /* W3C, IE
+    10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav{
+    background-color: #f8eec3;
+}
+.nav-item:hover{
+    background-color: #ed8115;
+    color: #000;
+}
+.dropdown-menu{
+    background-color: #f8eec3;
+    color: #000;    
+}
+.dropdown-item{
+    color: #000;  
+}
+.dropdown-item:hover{
+    background-color: #ed8115;
+    color: #000;
+}
+#btn-search:hover{
+    background-color: #ed8115;
+    color: #000;
+}
+#logo{
+    filter: drop-shadow(10px 5px 5px #000000);
+    height: 50px;
+    width: 50px;
+}
+#nav-image{
+    height: 50px;
+    width: 50px;
+}
+.d-block{
+    height: 800px
+}
+#titulo{
+    align-self: flex-end;
+    justify-self: stretch;
+}
